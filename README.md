@@ -1,6 +1,10 @@
 # SHTagView
 标签菜单栏封装
 
+效果图
+
+![image](http://github.com/shihao123/SHTagView/master/效果图.gif)
+
 1.将SHTagView.h和SHTagView.m文件加入工程
 
 2.引入头文件#import "SHTagView.h"
