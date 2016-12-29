@@ -24,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"1111");
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.title = @"SHTagViewDemo";
     self.selectTag = 0;
