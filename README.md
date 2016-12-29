@@ -8,6 +8,7 @@
 3.加入代理<tagClickDelegate>
 
 4.创建SHTagView对象，传入参数即可
+
     OneViewController*ovc = [[OneViewController alloc]init];
     ovc.title = @"要闻";
     [self addChildViewController:ovc];
