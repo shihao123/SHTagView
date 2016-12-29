@@ -3,7 +3,7 @@
 
 效果图
 
-![](https://github.com/shihao123/SHTagView/raw/master/demogif.gif)
+![](https://github.com/shihao123/SHTagView/raw/master/demoGIF.gif)
 
 1.将SHTagView.h和SHTagView.m文件加入工程
 
