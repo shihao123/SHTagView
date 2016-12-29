@@ -27,10 +27,10 @@
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.title = @"SHTagViewDemo";
     self.selectTag = 0;
-    UIBarButtonItem*rigntitem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addVC)];
+    UIBarButtonItem*rigntitem = [[UIBarButtonItem alloc]initWithTitle:@"增加" style:UIBarButtonItemStyleDone target:self action:@selector(addVC)];
     self.navigationItem.rightBarButtonItem = rigntitem;
     
-    UIBarButtonItem*leftitem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(removeVC)];
+    UIBarButtonItem*leftitem = [[UIBarButtonItem alloc]initWithTitle:@"删除" style:UIBarButtonItemStyleDone target:self action:@selector(removeVC)];
     self.navigationItem.leftBarButtonItem = leftitem;
 
     [self.view addSubview:self.tagView];
