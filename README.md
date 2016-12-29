@@ -2,8 +2,11 @@
 标签菜单栏封装
 
 1.将SHTagView.h和SHTagView.m文件加入工程
+
 2.引入头文件#import "SHTagView.h"
+
 3.加入代理<tagClickDelegate>
+
 4.创建SHTagView对象，传入参数即可
     OneViewController*ovc = [[OneViewController alloc]init];
     ovc.title = @"要闻";
@@ -30,15 +33,21 @@
     _tagView = [[SHTagView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height-64) AndChildVCs:vcArr];
     _tagView.delegate = self;
     [self.view addSubview:_tagView];
+    
 5.标签点击回调方法
+
 - (void)tagButtonClick:(UIButton *)sender
 {
 }
+
 6.增加新的栏目
+
     OneViewController*ovc = [[OneViewController alloc]init];
     [self addChildViewController:ovc];
     ovc.title = @"新增";
     [self.tagView addOneChildController:ovc];
+    
 7.删除一个栏目
+
     [self.tagView removeOneChildController:self.selectTag];
  参数为该栏目所在位置
